@@ -1,0 +1,82 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(83, 128, 85);
+}
+
+hr {
+    border: 1px solid #daf4fa;
+    margin-top: 20px;
+    background-color: #daf4fa;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+  
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(208, 253, 170);
+}
+
+.container-input-btn {
+    margin-top: 50px;
+    
+}
+
+.valList {
+    width: 350px;
+    height: 51px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #e5ff86;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+}
+option{
+    background-color: #ffffff;
+    font-size: 20px;
+}
+.valList:focus {
+    outline: none;
+}
+
+#countInput {
+    width: 350px;
+    height: 51px;
+    border-radius: 3px;
+    border-style: none;
+    padding-left: 5px;
+    background-color: #e5ff86;
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+
+    
+}
+
+#countInput:focus {
+    outline: none;
+}
+
+#convertBtn {
+    width: 150px;
+    height: 51px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #90ce81;
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+
+
+}
+
+#resultText {
+    margin-top: 40px;
+    color: rgb(208, 253, 170);
+    font-size: 25px;
+}
