@@ -6,77 +6,92 @@
 }
 
 body {
-    background-color: rgb(83, 128, 85);
+    background: #B79891;
+    background: -webkit-linear-gradient(to right, #94716B, #B79891);
+    background: linear-gradient(to right, #94716B, #B79891);
 }
 
+
+
 hr {
-    border: 1px solid #daf4fa;
+    border: 1px solid #815836;
     margin-top: 20px;
-    background-color: #daf4fa;
+    color: #e9dedb;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1200px;
-  
     text-align: center;
     margin-top: 50px;
-    color: rgb(208, 253, 170);
+    color: #e9dedb;
 }
 
 .container-input-btn {
     margin-top: 50px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .valList {
-    width: 350px;
+    width: 250px;
     height: 51px;
     border-radius: 3px;
     border-style: none;
-    background-color: #e5ff86;
-    color: rgb(66, 66, 66);
+    color: #e9dedb;
     font-size: 18px;
+    background-color: #ccb5b0;
 }
-option{
-    background-color: #ffffff;
+
+option {
+    background-color: #e9dedb;
     font-size: 20px;
+    color: #815836;
 }
+
+
 .valList:focus {
     outline: none;
 }
 
 #countInput {
-    width: 350px;
+    background-color: #ccb5b0;
     height: 51px;
     border-radius: 3px;
     border-style: none;
     padding-left: 5px;
-    background-color: #e5ff86;
-    color: rgb(66, 66, 66);
+    color: #fdffe6;
     font-size: 20px;
 
-    
 }
 
 #countInput:focus {
     outline: none;
-}
-
-#convertBtn {
-    width: 150px;
-    height: 51px;
-    border-radius: 3px;
-    border-style: none;
-    background-color: #90ce81;
-    color: rgb(66, 66, 66);
-    font-size: 20px;
-
 
 }
 
 #resultText {
-    margin-top: 40px;
-    color: rgb(208, 253, 170);
-    font-size: 25px;
+    font-size: 20px;
+    color: #fdffe6;
+    background-color: #ccb5b0;
+    height: 25px;
+    border-radius: 3px;
+    padding: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #815836;
+    margin-top: 300px;
+    height: 50px;
+    color: #B79891;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    padding: 10px;
 }

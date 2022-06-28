@@ -9,22 +9,17 @@ $.ajax({
             $("#valList").append(nowValHtml)
         });
 
-        $("#convertBtn").click,function (e) {
-        
+
+        $('#countInput').on('input', function () {
+            this.value = this.value.replace(/[^0-9\.]/g, '');
             let nowVal = $("#valList").val()
             let nowValRate = jsonObj["Valute"][nowVal]["Value"]
             let countVal = $("#countInput").val()
-            
 
-            $("#resultText").text(countVal + " " + nowVal + " to RUB = " +
+
+            $("#resultText").text(
                 Math.round(nowValRate * countVal))
-
-        };
-
-        $('#countInput').on('input',function(){
-            this.value = this.value.replace(/[^0-9\.]/g,'');
         });
+
     }
-        
-    
 });
