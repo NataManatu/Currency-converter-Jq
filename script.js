@@ -17,8 +17,15 @@ $.ajax({
             let countVal = $("#countInput").val()
 
 
-            $("#resultText").text(
-            (nowValRate * countVal).toFixed(2))
+            $("#resultText").val((nowValRate * countVal).toFixed(2))
+        });
+
+
+        $(nowValRate).on('change', 'select', function () {
+            this.val()
+            let resultVal = $("#resultText").val()
+            $(countVal).val((resultVal / nowVal).toFixed(2))
+
         });
 
     }
