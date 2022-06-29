@@ -18,7 +18,7 @@ $.ajax({
 
 
             $("#resultText").text(
-                Math.round(nowValRate * countVal))
+            (nowValRate * countVal).toFixed(2))
         });
 
     }
