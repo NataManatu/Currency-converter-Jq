@@ -18,14 +18,14 @@ $.ajax({
 
 
             $("#resultText").val((nowValRate * countVal).toFixed(2))
+            
         });
 
 
         $("#valList").on('change', function () {
-            alert('!')
+            alert('change сработал')
 
-            $(this).val();
-            $("#resultText").val()
+            $('#resultText').val(this.value);
            
 
         });
