@@ -23,8 +23,8 @@ $.ajax({
 
 
         $("select#valList").on('change', function () {
-            $(this).value
-            $('input[name="result"]').val();
+            // $(this).value
+            // $('input[name="result"]').val();
             let nowVal = $("#valList").val()
             let nowValRate = jsonObj["Valute"][nowVal]["Value"]
             let countVal = $("#countInput").val()
