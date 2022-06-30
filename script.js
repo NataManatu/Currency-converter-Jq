@@ -21,10 +21,12 @@ $.ajax({
         });
 
 
-        $(nowValRate).on('change', 'select', function () {
-            this.val()
-            let resultVal = $("#resultText").val()
-            $(countVal).val((resultVal / nowVal).toFixed(2))
+        $("#valList").on('change', function () {
+            alert('!')
+
+            $(this).val();
+            $("#resultText").val()
+           
 
         });
 
