@@ -18,15 +18,16 @@ $.ajax({
 
 
             $("#resultText").val((nowValRate * countVal).toFixed(2))
-            
+
         });
 
 
-        $("#valList").on('change', function () {
+        $("select#valList").on('change', function () {
             alert('change сработал')
-
-            $('#resultText').val(this.value);
+            $(this).value
+            $('input[name="result"]').val();
            
+
 
         });
 
